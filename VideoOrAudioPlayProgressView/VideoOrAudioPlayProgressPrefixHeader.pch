@@ -1,0 +1,16 @@
+//
+//  VideoOrAudioPlayProgressPrefixHeader.pch
+//  VideoOrAudioPlayProgressView
+//
+//  Created by 李海群 on 2019/4/28.
+//  Copyright © 2019 hsrd-hq. All rights reserved.
+//
+
+#ifndef VideoOrAudioPlayProgressPrefixHeader_pch
+#define VideoOrAudioPlayProgressPrefixHeader_pch
+
+#import "HelpTools.h"
+
+
+
+#endif /* VideoOrAudioPlayProgressPrefixHeader_pch */

@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB08E1D422757394009173E3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB08E1D322757394009173E3 /* RootViewController.m */; };
+		DB08E1D7227575BB009173E3 /* HelpTools.m in Sources */ = {isa = PBXBuildFile; fileRef = DB08E1D6227575BB009173E3 /* HelpTools.m */; };
+		DB140B792272F9FC009B3660 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB140B782272F9FC009B3660 /* AppDelegate.m */; };
+		DB140B812272F9FE009B3660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB140B802272F9FE009B3660 /* Assets.xcassets */; };
+		DB140B872272F9FE009B3660 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB140B862272F9FE009B3660 /* main.m */; };
+		DB140B912272F9FE009B3660 /* VideoOrAudioPlayProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB140B902272F9FE009B3660 /* VideoOrAudioPlayProgressViewTests.m */; };
+		DB140B9C2272F9FE009B3660 /* VideoOrAudioPlayProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB140B9B2272F9FE009B3660 /* VideoOrAudioPlayProgressViewUITests.m */; };
+		DB140BAB2272FAFF009B3660 /* PublicAudioPlayProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB140BA92272FAFF009B3660 /* PublicAudioPlayProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB140B8D2272F9FE009B3660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB140B6C2272F9FC009B3660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB140B732272F9FC009B3660;
+			remoteInfo = VideoOrAudioPlayProgressView;
+		};
+		DB140B982272F9FE009B3660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB140B6C2272F9FC009B3660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB140B732272F9FC009B3660;
+			remoteInfo = VideoOrAudioPlayProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB08E1D222757394009173E3 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		DB08E1D322757394009173E3 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		DB08E1D5227575BB009173E3 /* HelpTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpTools.h; sourceTree = "<group>"; };
+		DB08E1D6227575BB009173E3 /* HelpTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelpTools.m; sourceTree = "<group>"; };
+		DB08E1D922757AE0009173E3 /* VideoOrAudioPlayProgressPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoOrAudioPlayProgressPrefixHeader.pch; sourceTree = "<group>"; };
+		DB140B742272F9FC009B3660 /* VideoOrAudioPlayProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoOrAudioPlayProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB140B772272F9FC009B3660 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB140B782272F9FC009B3660 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB140B802272F9FE009B3660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB140B852272F9FE009B3660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB140B862272F9FE009B3660 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB140B8C2272F9FE009B3660 /* VideoOrAudioPlayProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoOrAudioPlayProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB140B902272F9FE009B3660 /* VideoOrAudioPlayProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoOrAudioPlayProgressViewTests.m; sourceTree = "<group>"; };
+		DB140B922272F9FE009B3660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB140B972272F9FE009B3660 /* VideoOrAudioPlayProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoOrAudioPlayProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB140B9B2272F9FE009B3660 /* VideoOrAudioPlayProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoOrAudioPlayProgressViewUITests.m; sourceTree = "<group>"; };
+		DB140B9D2272F9FE009B3660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB140BA92272FAFF009B3660 /* PublicAudioPlayProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicAudioPlayProgressView.m; sourceTree = "<group>"; };
+		DB140BAA2272FAFF009B3660 /* PublicAudioPlayProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicAudioPlayProgressView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB140B712272F9FC009B3660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB140B892272F9FE009B3660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB140B942272F9FE009B3660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB140B6B2272F9FC009B3660 = {
+			isa = PBXGroup;
+			children = (
+				DB140B762272F9FC009B3660 /* VideoOrAudioPlayProgressView */,
+				DB140B8F2272F9FE009B3660 /* VideoOrAudioPlayProgressViewTests */,
+				DB140B9A2272F9FE009B3660 /* VideoOrAudioPlayProgressViewUITests */,
+				DB140B752272F9FC009B3660 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB140B752272F9FC009B3660 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB140B742272F9FC009B3660 /* VideoOrAudioPlayProgressView.app */,
+				DB140B8C2272F9FE009B3660 /* VideoOrAudioPlayProgressViewTests.xctest */,
+				DB140B972272F9FE009B3660 /* VideoOrAudioPlayProgressViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB140B762272F9FC009B3660 /* VideoOrAudioPlayProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				DB140B772272F9FC009B3660 /* AppDelegate.h */,
+				DB140B782272F9FC009B3660 /* AppDelegate.m */,
+				DB08E1D5227575BB009173E3 /* HelpTools.h */,
+				DB08E1D6227575BB009173E3 /* HelpTools.m */,
+				DB08E1D222757394009173E3 /* RootViewController.h */,
+				DB08E1D322757394009173E3 /* RootViewController.m */,
+				DB140BAA2272FAFF009B3660 /* PublicAudioPlayProgressView.h */,
+				DB140BA92272FAFF009B3660 /* PublicAudioPlayProgressView.m */,
+				DB08E1D922757AE0009173E3 /* VideoOrAudioPlayProgressPrefixHeader.pch */,
+				DB140B802272F9FE009B3660 /* Assets.xcassets */,
+				DB140B852272F9FE009B3660 /* Info.plist */,
+				DB140B862272F9FE009B3660 /* main.m */,
+			);
+			path = VideoOrAudioPlayProgressView;
+			sourceTree = "<group>";
+		};
+		DB140B8F2272F9FE009B3660 /* VideoOrAudioPlayProgressViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB140B902272F9FE009B3660 /* VideoOrAudioPlayProgressViewTests.m */,
+				DB140B922272F9FE009B3660 /* Info.plist */,
+			);
+			path = VideoOrAudioPlayProgressViewTests;
+			sourceTree = "<group>";
+		};
+		DB140B9A2272F9FE009B3660 /* VideoOrAudioPlayProgressViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB140B9B2272F9FE009B3660 /* VideoOrAudioPlayProgressViewUITests.m */,
+				DB140B9D2272F9FE009B3660 /* Info.plist */,
+			);
+			path = VideoOrAudioPlayProgressViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB140B732272F9FC009B3660 /* VideoOrAudioPlayProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB140BA02272F9FE009B3660 /* Build configuration list for PBXNativeTarget "VideoOrAudioPlayProgressView" */;
+			buildPhases = (
+				DB140B702272F9FC009B3660 /* Sources */,
+				DB140B712272F9FC009B3660 /* Frameworks */,
+				DB140B722272F9FC009B3660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoOrAudioPlayProgressView;
+			productName = VideoOrAudioPlayProgressView;
+			productReference = DB140B742272F9FC009B3660 /* VideoOrAudioPlayProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB140B8B2272F9FE009B3660 /* VideoOrAudioPlayProgressViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB140BA32272F9FE009B3660 /* Build configuration list for PBXNativeTarget "VideoOrAudioPlayProgressViewTests" */;
+			buildPhases = (
+				DB140B882272F9FE009B3660 /* Sources */,
+				DB140B892272F9FE009B3660 /* Frameworks */,
+				DB140B8A2272F9FE009B3660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB140B8E2272F9FE009B3660 /* PBXTargetDependency */,
+			);
+			name = VideoOrAudioPlayProgressViewTests;
+			productName = VideoOrAudioPlayProgressViewTests;
+			productReference = DB140B8C2272F9FE009B3660 /* VideoOrAudioPlayProgressViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB140B962272F9FE009B3660 /* VideoOrAudioPlayProgressViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB140BA62272F9FE009B3660 /* Build configuration list for PBXNativeTarget "VideoOrAudioPlayProgressViewUITests" */;
+			buildPhases = (
+				DB140B932272F9FE009B3660 /* Sources */,
+				DB140B942272F9FE009B3660 /* Frameworks */,
+				DB140B952272F9FE009B3660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB140B992272F9FE009B3660 /* PBXTargetDependency */,
+			);
+			name = VideoOrAudioPlayProgressViewUITests;
+			productName = VideoOrAudioPlayProgressViewUITests;
+			productReference = DB140B972272F9FE009B3660 /* VideoOrAudioPlayProgressViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB140B6C2272F9FC009B3660 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "hsrd-hq";
+				TargetAttributes = {
+					DB140B732272F9FC009B3660 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					DB140B8B2272F9FE009B3660 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = DB140B732272F9FC009B3660;
+					};
+					DB140B962272F9FE009B3660 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = DB140B732272F9FC009B3660;
+					};
+				};
+			};
+			buildConfigurationList = DB140B6F2272F9FC009B3660 /* Build configuration list for PBXProject "VideoOrAudioPlayProgressView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB140B6B2272F9FC009B3660;
+			productRefGroup = DB140B752272F9FC009B3660 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB140B732272F9FC009B3660 /* VideoOrAudioPlayProgressView */,
+				DB140B8B2272F9FE009B3660 /* VideoOrAudioPlayProgressViewTests */,
+				DB140B962272F9FE009B3660 /* VideoOrAudioPlayProgressViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB140B722272F9FC009B3660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB140B812272F9FE009B3660 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB140B8A2272F9FE009B3660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB140B952272F9FE009B3660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB140B702272F9FC009B3660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB140B872272F9FE009B3660 /* main.m in Sources */,
+				DB140B792272F9FC009B3660 /* AppDelegate.m in Sources */,
+				DB08E1D7227575BB009173E3 /* HelpTools.m in Sources */,
+				DB08E1D422757394009173E3 /* RootViewController.m in Sources */,
+				DB140BAB2272FAFF009B3660 /* PublicAudioPlayProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB140B882272F9FE009B3660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB140B912272F9FE009B3660 /* VideoOrAudioPlayProgressViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB140B932272F9FE009B3660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB140B9C2272F9FE009B3660 /* VideoOrAudioPlayProgressViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB140B8E2272F9FE009B3660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB140B732272F9FC009B3660 /* VideoOrAudioPlayProgressView */;
+			targetProxy = DB140B8D2272F9FE009B3660 /* PBXContainerItemProxy */;
+		};
+		DB140B992272F9FE009B3660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB140B732272F9FC009B3660 /* VideoOrAudioPlayProgressView */;
+			targetProxy = DB140B982272F9FE009B3660 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DB140B9E2272F9FE009B3660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB140B9F2272F9FE009B3660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB140BA12272F9FE009B3660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VideoOrAudioPlayProgressView/VideoOrAudioPlayProgressPrefixHeader.pch";
+				INFOPLIST_FILE = VideoOrAudioPlayProgressView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.projectFramework.pre.VideoOrAudioPlayProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB140BA22272F9FE009B3660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VideoOrAudioPlayProgressView/VideoOrAudioPlayProgressPrefixHeader.pch";
+				INFOPLIST_FILE = VideoOrAudioPlayProgressView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.projectFramework.pre.VideoOrAudioPlayProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB140BA42272F9FE009B3660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VideoOrAudioPlayProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.projectFramework.pre.VideoOrAudioPlayProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoOrAudioPlayProgressView.app/VideoOrAudioPlayProgressView";
+			};
+			name = Debug;
+		};
+		DB140BA52272F9FE009B3660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VideoOrAudioPlayProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.projectFramework.pre.VideoOrAudioPlayProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoOrAudioPlayProgressView.app/VideoOrAudioPlayProgressView";
+			};
+			name = Release;
+		};
+		DB140BA72272F9FE009B3660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VideoOrAudioPlayProgressViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.projectFramework.pre.VideoOrAudioPlayProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VideoOrAudioPlayProgressView;
+			};
+			name = Debug;
+		};
+		DB140BA82272F9FE009B3660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VideoOrAudioPlayProgressViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.projectFramework.pre.VideoOrAudioPlayProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VideoOrAudioPlayProgressView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB140B6F2272F9FC009B3660 /* Build configuration list for PBXProject "VideoOrAudioPlayProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB140B9E2272F9FE009B3660 /* Debug */,
+				DB140B9F2272F9FE009B3660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB140BA02272F9FE009B3660 /* Build configuration list for PBXNativeTarget "VideoOrAudioPlayProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB140BA12272F9FE009B3660 /* Debug */,
+				DB140BA22272F9FE009B3660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB140BA32272F9FE009B3660 /* Build configuration list for PBXNativeTarget "VideoOrAudioPlayProgressViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB140BA42272F9FE009B3660 /* Debug */,
+				DB140BA52272F9FE009B3660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB140BA62272F9FE009B3660 /* Build configuration list for PBXNativeTarget "VideoOrAudioPlayProgressViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB140BA72272F9FE009B3660 /* Debug */,
+				DB140BA82272F9FE009B3660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB140B6C2272F9FC009B3660 /* Project object */;
+}
