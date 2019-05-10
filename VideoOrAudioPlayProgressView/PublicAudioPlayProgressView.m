@@ -131,7 +131,7 @@
     
     CGPoint translation = [recognizer translationInView:self];
     CGPoint newCenter = CGPointMake(recognizer.view.center.x+ translation.x,
-                                    recognizer.view.center.y + translation.y);
+                                    recognizer.view.center.y);
     //    限制屏幕范围：
     newCenter.y = MAX(recognizer.view.frame.size.height/2, recognizer.view.frame.size.width/2);
     newCenter.y = MIN(self.frame.size.height - recognizer.view.frame.size.height/2, recognizer.view.frame.size.width/2);
@@ -141,12 +141,14 @@
     [recognizer setTranslation:CGPointZero inView:self];
     
     CGRect greenRect = self.backGreenView.frame;
-    greenRect.size.width = newCenter.x;
+    greenRect.size.width = recognizer.view.frame.origin.x;
     self.backGreenView.frame = greenRect;
     
     CGFloat totalW = self.tempFrame.size.width - self.playTimeW;
     CGFloat moveW = newCenter.x - recognizer.view.frame.size.width/2;
     int moveX = moveW/totalW*self.totalLength;
+    
+    [self changePlayProgress:moveX totalLength:self.totalLength];
     
     if ([self.delegate respondsToSelector:@selector(changePlayTimeByPublicAudioPlayProgressView:)]) {
         [self.delegate changePlayTimeByPublicAudioPlayProgressView:moveX];
