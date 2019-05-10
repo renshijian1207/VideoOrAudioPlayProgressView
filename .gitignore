@@ -5,7 +5,9 @@
 ## Build generated
 build/
 DerivedData/
-
+.svn
+xcshareddata
+VideoOrAudioPlayProgressView.xcodeproj/project.xcworkspace
 ## Various settings
 *.pbxuser
 !default.pbxuser
@@ -29,6 +31,7 @@ xcuserdata/
 *.dSYM
 
 Pods/
+Podfile.lock
 Carthage/Build
 
 # fastlane
